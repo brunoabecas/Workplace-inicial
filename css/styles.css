@@ -139,3 +139,95 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+
+#body-1{
+  margin: 0;
+  padding: 0;
+  background-color: skyblue;
+  font-family: 'Times New Roman', Times, serif;
+  height: 100vh;
+}
+
+.login-1{
+  width: 320px;
+  height: 420px;
+  background: seashell;
+  color: black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.img-1{
+  margin-left: 800px;
+  margin-top: 100px;
+  height: 120px;
+}
+
+.login-1 h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.login-1 label{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-1 input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-1 input[type="text"], .login-1 input[type="password"] {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+
+.login-1 input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #d6bec1;
+  color: black;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-1 button[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.login-1 a {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+}
+
+.login-1 a:hover {
+  color: blue;
+}
+
+.login-1 button {
+  cursor: pointer;
+  background: tomato;
+  color: #000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20xp;
+  margin-left: 100px;
+  
+}
