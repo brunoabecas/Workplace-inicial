@@ -1,4 +1,4 @@
-.jumbotron, .card-body, .container, .site-header {
+me.jumbotron, .card-body, .container, .site-header {
   font-family: 'Raleway', serif !important;
 }
 
@@ -269,4 +269,12 @@ a.custom-card, a.custom-card:hover {
   -moz-border-radius: 53px 53px 53px 53px;
   -webkit-border-radius: 53px 53px 53px 53px;
   border: 0px solid #000000;
+}
+
+#user {
+
+  color: white; 
+  font-size: 18px;
+  border: 1px solid;
+  text-align: center;
 }
