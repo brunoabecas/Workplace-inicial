@@ -21,9 +21,15 @@
         <a class="py-2 d-none d-md-inline-block" href="products.html">Productos</a>
         <a class="py-2 d-none d-md-inline-block" href="sell.html">Vender</a>
         <a class="py-2 d-none d-md-inline-block" href="cart.html">Mi carrito</a>
+        <span id="user">Usuario</span> 
         
-      
-      
+         <script>
+             var usuario = localStorage.getItem("usuario"); 
+             var sesion = sessionStorage.getItem("usuario");
+             document.getElementById('user').innerHTML=usuario;
+            
+             
+         </script>
       </div>
     </nav>
     <main role="main">
@@ -86,12 +92,6 @@
                   <h3 class="m-3">Vestimenta (841)</h3>
                   <div class="card-body">
                     <p class="card-text">Gran variedad de ropa, nueva y de segunda mano.</p>
-                    <script>
-                          var user = localStorage.getItem("user"); //getItem Obtiene el dato de la posición "usuario"
-                  var pass = sessionStorage.getItem("user");
-                  document.getElementById('user').innerHTML=user;
-                document.getElementById('pass').innerHTML=pass;
-                  </script>
                   </div>
                 </a>
             </div>
