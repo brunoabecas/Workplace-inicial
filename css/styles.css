@@ -10,7 +10,7 @@ me.jumbotron, .card-body, .container, .site-header {
   height: 50vh;
   padding: 5em inherit;
   margin-bottom: 0;
-  background-color: #53C0FB;
+  background-color: #20C0FB;
   background: url('../img/cover_back.png');
   background-size: cover;
   background-position: center;
@@ -120,7 +120,7 @@ footer p {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(320deg);
   }
 }
 
@@ -150,33 +150,37 @@ a.custom-card, a.custom-card:hover {
   background-color: #4158D0;
   background-color: #284eeb;
   background-color: #284eeb;
-  background-image: linear-gradient(135deg, #284eeb 24%, #67e314 57%, #05ff35 64%, #ffffff 93%);
+  
   font-family: 'Catamaran', sans-serif;
   height: 100vh;
 }
 
 #img-1 {
-  width: 600px;
+  width: 200px;
   margin-top: 85px;
   margin-left: 150px;
   float: center;
 }
 
 .login-1 {
+
   width: 390px;
-  height: 600px;
-  background: rgb(186, 235, 193);
+  background-color:tomato;
+  border: black 1px solid;
   color: rgb(44, 42, 42);
-  top: 55%;
-  left: 85%;
+  top: 50%;
+  left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
   padding: 40px 30px;
-  border-radius: 53px 53px 53px 53px;
-  -moz-border-radius: 53px 53px 53px 53px;
-  -webkit-border-radius: 53px 53px 53px 53px;
-  border: 2px solid #242323;
+ -webkit-box-shadow: 2px 3px 5px 4px rgba(26,2,26,0.39);
+-moz-box-shadow: 2px 3px 5px 4px rgba(26,2,26,0.39);
+box-shadow: 2px 3px 5px 4px rgba(26,2,26,0.39);
+border-radius: 31px 31px 31px 31px;
+-moz-border-radius: 31px 31px 31px 31px;
+-webkit-border-radius: 31px 31px 31px 31px;
+border: 0px solid #000000;
   font-family: 'Cormorant Garamond', serif;
   font-size: 35px;
 }
@@ -188,7 +192,7 @@ a.custom-card, a.custom-card:hover {
   border: solid 0px;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
-  margin-top:100px;
+  margin-left: 480px;
 }
 
 #subtit {
@@ -198,6 +202,7 @@ a.custom-card, a.custom-card:hover {
   border: solid 0px;
   text-align: center;
   font-family: 'Caveat', cursive;
+  margin-left: 480px;
 }
 
 .login-1 h1 {
@@ -206,6 +211,8 @@ a.custom-card, a.custom-card:hover {
   text-align: center;
   font-size: 50px;
   color: rgb(44, 42, 42);
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .login-1 label {
@@ -214,6 +221,7 @@ a.custom-card, a.custom-card:hover {
   padding: 0;
   font-weight: bold;
   display: block;
+ 
 }
 
 .login-1 input {
@@ -222,22 +230,25 @@ a.custom-card, a.custom-card:hover {
 }
 
 .login-1 input[type="text"], .login-1 input[type="password"] {
-  border: none;
+  text-align: center;
   border-bottom: 1px solid black;
-  background: transparent;
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
   outline: none;
   height: 40px;
   color: black;
-  font-size: 16px;
+  font-size: 18px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .login-1 input[type="submit"] {
-  border: none;
+  
   outline: none;
   height: 40px;
-  background: #d6bec1;
-  color: black;
+  background: black
+  color: whitesmoke;
   font-size: 18px;
   border-radius: 20px;
 }
@@ -246,6 +257,7 @@ a.custom-card, a.custom-card:hover {
   
   background: rgb(185, 181, 181);
   color: #000;
+  
 }
 
 .login-1 a {
@@ -265,16 +277,183 @@ a.custom-card, a.custom-card:hover {
   color: white;
   font-size: 25px;
   margin-left: 120px;
-  border-radius: 53px 53px 53px 53px;
-  -moz-border-radius: 53px 53px 53px 53px;
-  -webkit-border-radius: 53px 53px 53px 53px;
-  border: 0px solid #000000;
+  
+}
+#user {
+  margin-top:20px;
+  font-weight: bold;
+  
+  
+  width:100px;
+  text-align:center;
 }
 
-#user {
-
-  color: white; 
+#users {
+   border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+  color:blue;
   font-size: 18px;
-  border: 1px solid;
   text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+/* Otros */
+
+
+#Volver {
+  color: black;
+     border: black 1px solid; 
+     background: whitesmoke;
+     
+}
+
+#Volver:hover{
+  color: yellow;
+}
+
+.Comentarios {
+  background-color:whitesmoke;
+  font-style: italic;
+  width: 600px;
+  border:black 1px solid;
+  
+  margin-bottom: 20px;
+  text-align: center;
+  
+  
+}
+.info {
+  margin-left:350px;
+}
+
+.Comentarios h6 {
+  font-weight: bold;
+}
+
+
+
+#para {
+  background-color:whitesmoke;
+  font-style: italic;
+  width: 600px;
+  text-align: center;
+  
+  
+}
+
+
+#example {
+ 
+ width: 200px;
+ height: 100px;
+
+ 
+ 
+  
+}
+
+#sent {
+
+  position: static
+  background-color:whitesmoke;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+
+
+.related {
+  width: 500px;
+  border: solid whitesmoke;
+  float: left;
+  text-align:left;
+}
+
+.related img{
+  width: 50%;
+  display:block;
+  margin:left;
+  border:0;
+}
+
+.related input {
+  width: 150px;
+  display:block;
+  margin-left: 320px;
+  background-color: rgb(64, 64, 146);
+  font-family: monospace;
+  font-size: 20px;
+  
+}
+
+.related p {
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  
+}
+
+
+.rel {
+  width:220px;
+  float: right;
+  
+}
+
+.related a {
+  text-decoration:none
+}
+
+.related input:hover{
+  color: white;
+}
+
+
+
+.relateds {
+  width: 500px;
+  border: solid whitesmoke;
+  float: right;
+ 
+}
+
+.relateds img{
+  width: 50%;
+  display:block;
+  margin:left;
+  border:0;
+}
+
+.relateds input {
+  width: 150px;
+  display:block;
+  margin-left: 320px;
+  background-color: rgb(64, 64, 146);
+  font-family: monospace;
+  font-size: 20px;
+  
+}
+
+.relateds p {
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  
+}
+
+
+.rels {
+  width:220px;
+  float: right;
+  
+}
+
+.relateds a {
+  text-decoration:none
+}
+
+.relateds input:hover{
+  color: white;
 }

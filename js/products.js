@@ -47,11 +47,15 @@ function showCategoriesList(){
         ((maxCount == undefined) || (maxCount != undefined && parseInt(product.cost) <= maxCount))){
 
         htmlContentToAppend += `
+    
         <div class="list-group-item list-group-item-action">
-            <div class="row">
+            <div class="row"> 
+            
                 <div class="col-3">
-                    <img src="` + product.imgSrc + `" alt="` + product.description + ` " class="img-thumbnail">
+                 <img src="` + product.imgSrc + `" alt="` + product.description + ` " class="img-thumbnail">
+                 
                 </div>
+              
                
                 <div class="col">
                     <div class="d-flex w-100 justify-content-between">
