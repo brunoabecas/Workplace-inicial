@@ -43,8 +43,6 @@ document.addEventListener("DOMContentLoaded", function(e){
     });
 });
 
-<<<<<<< HEAD
-=======
 document.addEventListener("DOMContentLoaded", function(e){
     getJSONData(PRODUCT_INFO_COMMENTS_URL).then(function(resultObj){
         if (resultObj.status === "ok")
@@ -66,37 +64,12 @@ document.addEventListener("DOMContentLoaded", function(e){
     });
 });
 
->>>>>>> 22969d9ad8b881e41db9a315c0cb64ac666f5afd
 document.addEventListener("DOMContentLoaded", function(e){
     getJSONData(PRODUCT_INFO_COMMENTS_URL).then(function(resultObj){
         if (resultObj.status === "ok")
         {
             category = resultObj.data;
 
-<<<<<<< HEAD
-            let categoryNameHTML  = document.getElementById("productScore");
-            let categoryDescriptionHTML = document.getElementById("productDescripcion");
-            let productCountHTML = document.getElementById("productUser");
-            let productCriteriaHTML = document.getElementById("productDatetime");
-        
-            
-            categoryDescriptionHTML.innerHTML = category[0].user;
-            productCountHTML.innerHTML = category[0].description;
-            productCriteriaHTML.innerHTML = category[0].dateTime;
-
-            
-        }
-    });
-});
-
-document.addEventListener("DOMContentLoaded", function(e){
-    getJSONData(PRODUCT_INFO_COMMENTS_URL).then(function(resultObj){
-        if (resultObj.status === "ok")
-        {
-            category = resultObj.data;
-
-=======
->>>>>>> 22969d9ad8b881e41db9a315c0cb64ac666f5afd
            
             let categoryDescriptionHTML = document.getElementById("productDescripcion1");
             let productCountHTML = document.getElementById("productUser1");
@@ -147,7 +120,6 @@ document.addEventListener("DOMContentLoaded", function(e){
             categoryDescriptionHTML.innerHTML = category[3].user;
             productCountHTML.innerHTML = category[3].description;
             productCriteriaHTML.innerHTML = category[3].dateTime;
-<<<<<<< HEAD
             
             
         }
@@ -196,18 +168,11 @@ document.addEventListener("DOMContentLoaded", function(e){
             productCountHTML.innerHTML = '<img class="img-fluid img-thumbnail"src="'+ category[3].imgSrc+'">';
            
             
-=======
-
->>>>>>> 22969d9ad8b881e41db9a315c0cb64ac666f5afd
             
         }
     });
 });
-<<<<<<< HEAD
 
-=======
-// 
->>>>>>> 22969d9ad8b881e41db9a315c0cb64ac666f5afd
 
 
 
