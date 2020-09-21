@@ -277,22 +277,13 @@ border: 0px solid #000000;
   color: white;
   font-size: 25px;
   margin-left: 120px;
-<<<<<<< HEAD
   
-=======
-  C
->>>>>>> 22969d9ad8b881e41db9a315c0cb64ac666f5afd
 }
 #user {
   margin-top:20px;
   font-weight: bold;
-<<<<<<< HEAD
   
   
-=======
-  color:black;
-  background-color:whitesmoke;
->>>>>>> 22969d9ad8b881e41db9a315c0cb64ac666f5afd
   width:100px;
   text-align:center;
 }
@@ -312,11 +303,7 @@ border: 0px solid #000000;
 
 
 #Volver {
-<<<<<<< HEAD
   color: black;
-=======
-  color: red;
->>>>>>> 22969d9ad8b881e41db9a315c0cb64ac666f5afd
      border: black 1px solid; 
      background: whitesmoke;
      
@@ -337,12 +324,9 @@ border: 0px solid #000000;
   
   
 }
-<<<<<<< HEAD
 .info {
   margin-left:350px;
 }
-=======
->>>>>>> 22969d9ad8b881e41db9a315c0cb64ac666f5afd
 
 .Comentarios h6 {
   font-weight: bold;
@@ -378,7 +362,6 @@ border: 0px solid #000000;
   
 }
 
-<<<<<<< HEAD
 
 
 .related {
@@ -474,11 +457,3 @@ border: 0px solid #000000;
 .relateds input:hover{
   color: white;
 }
-=======
-.info {
- 
-}
-
-
-}
->>>>>>> 22969d9ad8b881e41db9a315c0cb64ac666f5afd
