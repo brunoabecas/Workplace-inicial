@@ -43,14 +43,105 @@
      
     </div>
   </nav>
-  <div class="container p-5">
-    <div class="alert alert-danger" role="alert" style="position: relative; width:auto; top: 0;">
-      <h4 class="alert-heading">¡A trabajar! :)</h4>
-      <p>Esta sección corresponde a: Entrega 5 (Fecha de entrega: 11/10/2020) y Entrega 6 (Fecha de entrega: 25/10/2020).</p>
-      <hr>
-      <p class="mb-0">Para saber qué debes hacer, fijate en la actividad en CREA correspondiente a esta entrega.</p>
-    </div>
+
   </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  
+  </head>
+  <body>
+  
+  <h1>CARRITO DE COMPRAS</h1>
+  
+  <div class="shopping-cart">
+  
+    <div class="column-labels">
+      <label class="product-image">Image</label>
+      <label class="product-details">Product</label>
+      <label class="product-price">Price</label>
+      <label class="product-quantity">Cantidad</label>
+      <label class="product-removal">Remove</label>
+      <label class="product-line-price">Total</label>
+    </div>
+    <div class="product">
+      <div class="product-image">
+        <div id="cart-container3"></div>
+      </div>
+      <div class="product-details">
+        <p id="cart-container4"></p>
+        <div class="product-title"></div>
+        
+        <p class="product-description"></p>
+      </div>
+      <div class="product-price">500000
+        <p id="cart-price1"></p>
+      </div>
+      
+      <div class="product-quantity">
+        <input type="number" value="0" min="0">
+      </div>
+      <div class="product-removal">
+        <button class="remove-product">
+         Eliminar
+        </button>
+      </div>
+      <div class="product-line-price">0
+      </div>
+    </div>
+    <div class="product">
+      <div class="product-image">
+        <div id="cart-container2">
+        </div>
+      </div>
+      <div class="product-details">
+        <p id="cart-container1"></p>
+        <div class="product-title"></div>
+        <p class="product-description"></p>
+      </div>
+      <div class="product-price">100
+       <p id="cart-price"></p>
+    </div>
+      <div class="product-quantity">
+        <input type="number" value="1" min="0">
+      </div>
+      <div class="product-removal">
+        <button class="remove-product">
+          Eliminar
+        </button>
+      </div>
+      <div class="product-line-price">100</div>
+    </div>
+  
+   
+  
+    <div class="totals">
+      <div class="totals-item">
+        <label>Subtotal</label>
+        <div class="totals-value" id="cart-subtotal">100</div>
+      </div>
+      <div class="totals-item">
+        <label>I.V.A (5%)</label>
+        <div class="totals-value" id="cart-tax"></div>
+      </div>
+      <div class="totals-item">
+        <label>Envio</label>
+        <div class="totals-value" id="cart-shipping">0</div>
+      </div>
+      <div class="totals-item totals-item-total">
+        <label>Total</label>
+        <div class="totals-value" id="cart-total">0</div>
+      </div>
+    </div>
+       
+        <button class="checkout">Comprar</button>
+  
+  </div>
+  <div id="cart-container3"></div>
+      <a href="index.html"><input type="button" value="Pagina Principal" onclick=""></a>
+    </div>
+    
+
+
   <div id="spinner-wrapper">
     <div class="lds-ring">
       <div></div>
@@ -64,6 +155,8 @@
   <script src="js/dropzone.js"></script>
   <script src="js/init.js"></script>
   <script src="js/cart.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="js/cart.js"></script>
+  
 </body>
 
 </html>
