@@ -10,7 +10,7 @@ me.jumbotron, .card-body, .container, .site-header {
   height: 50vh;
   padding: 5em inherit;
   margin-bottom: 0;
-  background-color: #53C0FB;
+  background-color: #20C0FB;
   background: url('../img/cover_back.png');
   background-size: cover;
   background-position: center;
@@ -120,7 +120,7 @@ footer p {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(320deg);
   }
 }
 
@@ -150,33 +150,37 @@ a.custom-card, a.custom-card:hover {
   background-color: #4158D0;
   background-color: #284eeb;
   background-color: #284eeb;
-  background-image: linear-gradient(135deg, #284eeb 24%, #67e314 57%, #05ff35 64%, #ffffff 93%);
+  
   font-family: 'Catamaran', sans-serif;
   height: 100vh;
 }
 
 #img-1 {
-  width: 600px;
+  width: 200px;
   margin-top: 85px;
   margin-left: 150px;
   float: center;
 }
 
 .login-1 {
+
   width: 390px;
-  height: 600px;
-  background: rgb(186, 235, 193);
+  background-color:tomato;
+  border: black 1px solid;
   color: rgb(44, 42, 42);
-  top: 55%;
-  left: 85%;
+  top: 50%;
+  left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
   padding: 40px 30px;
-  border-radius: 53px 53px 53px 53px;
-  -moz-border-radius: 53px 53px 53px 53px;
-  -webkit-border-radius: 53px 53px 53px 53px;
-  border: 2px solid #242323;
+ -webkit-box-shadow: 2px 3px 5px 4px rgba(26,2,26,0.39);
+-moz-box-shadow: 2px 3px 5px 4px rgba(26,2,26,0.39);
+box-shadow: 2px 3px 5px 4px rgba(26,2,26,0.39);
+border-radius: 31px 31px 31px 31px;
+-moz-border-radius: 31px 31px 31px 31px;
+-webkit-border-radius: 31px 31px 31px 31px;
+border: 0px solid #000000;
   font-family: 'Cormorant Garamond', serif;
   font-size: 35px;
 }
@@ -188,7 +192,7 @@ a.custom-card, a.custom-card:hover {
   border: solid 0px;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
-  margin-top:100px;
+  margin-left: 480px;
 }
 
 #subtit {
@@ -198,6 +202,7 @@ a.custom-card, a.custom-card:hover {
   border: solid 0px;
   text-align: center;
   font-family: 'Caveat', cursive;
+  margin-left: 480px;
 }
 
 .login-1 h1 {
@@ -206,6 +211,8 @@ a.custom-card, a.custom-card:hover {
   text-align: center;
   font-size: 50px;
   color: rgb(44, 42, 42);
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .login-1 label {
@@ -214,6 +221,7 @@ a.custom-card, a.custom-card:hover {
   padding: 0;
   font-weight: bold;
   display: block;
+ 
 }
 
 .login-1 input {
@@ -222,22 +230,25 @@ a.custom-card, a.custom-card:hover {
 }
 
 .login-1 input[type="text"], .login-1 input[type="password"] {
-  border: none;
+  text-align: center;
   border-bottom: 1px solid black;
-  background: transparent;
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
   outline: none;
   height: 40px;
   color: black;
-  font-size: 16px;
+  font-size: 18px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .login-1 input[type="submit"] {
-  border: none;
+  
   outline: none;
   height: 40px;
-  background: #d6bec1;
-  color: black;
+  background: black
+  color: whitesmoke;
   font-size: 18px;
   border-radius: 20px;
 }
@@ -246,6 +257,7 @@ a.custom-card, a.custom-card:hover {
   
   background: rgb(185, 181, 181);
   color: #000;
+  
 }
 
 .login-1 a {
@@ -265,16 +277,757 @@ a.custom-card, a.custom-card:hover {
   color: white;
   font-size: 25px;
   margin-left: 120px;
-  border-radius: 53px 53px 53px 53px;
-  -moz-border-radius: 53px 53px 53px 53px;
-  -webkit-border-radius: 53px 53px 53px 53px;
-  border: 0px solid #000000;
+  
+}
+#user {
+  margin-top:20px;
+  font-weight: bold;
+  
+  
+  width:100px;
+  text-align:center;
 }
 
-#user {
-
-  color: white; 
+#users {
+   border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+  color:blue;
   font-size: 18px;
-  border: 1px solid;
   text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+/* Otros */
+
+
+#Volver {
+  color: black;
+     border: black 1px solid; 
+     background: whitesmoke;
+     
+}
+
+#Volver:hover{
+  color: yellow;
+}
+
+.Comentarios {
+  background-color:whitesmoke;
+  font-style: italic;
+  width: 600px;
+  border:black 1px solid;
+  
+  margin-bottom: 20px;
+  text-align: center;
+  
+  
+}
+.info {
+  margin-left:350px;
+}
+
+.Comentarios h6 {
+  font-weight: bold;
+}
+
+
+
+#para {
+  background-color:whitesmoke;
+  font-style: italic;
+  width: 600px;
+  text-align: center;
+  
+  
+}
+
+
+#example {
+ 
+ width: 200px;
+ height: 100px;
+
+ 
+ 
+  
+}
+
+#sent {
+
+  position: static
+  background-color:whitesmoke;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+
+
+.related {
+  width: 500px;
+  border: solid whitesmoke;
+  float: left;
+  text-align:left;
+}
+
+.related img{
+  width: 50%;
+  display:block;
+  margin:left;
+  border:0;
+}
+
+.related input {
+  width: 150px;
+  display:block;
+  margin-left: 320px;
+  background-color: rgb(64, 64, 146);
+  font-family: monospace;
+  font-size: 20px;
+  
+}
+
+.related p {
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  
+}
+
+
+.rel {
+  width:220px;
+  float: right;
+  
+}
+
+.related a {
+  text-decoration:none
+}
+
+.related input:hover{
+  color: white;
+}
+
+
+
+.relateds {
+  width: 500px;
+  border: solid whitesmoke;
+  float: right;
+ 
+}
+
+.relateds img{
+  width: 50%;
+  display:block;
+  margin:left;
+  border:0;
+}
+
+.relateds input {
+  width: 150px;
+  display:block;
+  margin-left: 320px;
+  background-color: rgb(64, 64, 146);
+  font-family: monospace;
+  font-size: 20px;
+  
+}
+
+.relateds p {
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  
+}
+
+
+.rels {
+  width:220px;
+  float: right;
+  
+}
+
+.relateds a {
+  text-decoration:none
+}
+
+.relateds input:hover{
+  color: white;
+}
+.product-image {
+  float: left;
+  width: 20%;
+}
+
+.product-details {
+  float: left;
+  width: 37%;
+}
+
+.product-price {
+  float: left;
+  width: 12%;
+}
+
+.product-quantity {
+  float: left;
+  width: 10%;
+}
+
+.product-removal {
+  float: left;
+  width: 9%;
+}
+
+.product-line-price {
+  float: left;
+  width: 12%;
+  text-align: right;
+}
+
+/* This is used as the traditional .clearfix class */
+.group:before, .shopping-cart:before, .column-labels:before, .product:before, .totals-item:before,
+.group:after,
+.shopping-cart:after,
+.column-labels:after,
+.product:after,
+.totals-item:after {
+  content: '';
+  display: table;
+}
+
+.group:after, .shopping-cart:after, .column-labels:after, .product:after, .totals-item:after {
+  clear: both;
+}
+
+.group, .shopping-cart, .column-labels, .product, .totals-item {
+  zoom: 1;
+}
+
+
+
+
+
+body {
+  
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+label {
+  color: #aaa;
+}
+
+.shopping-cart {
+  margin-top: -45px;
+  margin-right: 50px;
+}
+
+/* Column headers */
+.column-labels label {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+.column-labels .product-image, .column-labels .product-details, .column-labels .product-removal {
+  text-indent: -9999px;
+}
+
+
+.product {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+.product .product-image {
+  text-align: center;
+}
+.product .product-image img {
+  width: 100px;
+}
+.product .product-details .product-title {
+  margin-right: 20px;
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+}
+.product .product-details .product-description {
+  margin: 5px 20px 5px 0;
+  line-height: 1.4em;
+}
+.product .product-quantity input {
+  width: 40px;
+}
+.product .remove-product {
+  border: 0;
+  padding: 4px 8px;
+  background-color: #c66;
+  color: #fff;
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+  font-size: 12px;
+  border-radius: 3px;
+}
+.product .remove-product:hover {
+  background-color: #a44;
+}
+
+/* Totals section */
+.totals .totals-item {
+  float: right;
+  clear: both;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.totals .totals-item label {
+  float: left;
+  clear: both;
+  width: 79%;
+  text-align: right;
+}
+.totals .totals-item .totals-value {
+  float: right;
+  width: 21%;
+  text-align: right;
+}
+.totals .totals-item-total {
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+}
+
+.checkout {
+  float: right;
+  border: 0;
+  margin-top: 60px;
+  padding: 6px 25px;
+  
+  color: #fff;
+  font-size: 25px;
+  border-radius: 3px;
+}
+.checkout button {
+  float: right;
+  border: 0;
+  margin-right: 5px;
+  padding: 6px 20px;
+  background-color:rgb(21, 21, 124);
+  color: #fff;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.checkout:hover {
+  
+}
+
+
+@media screen and (max-width: 650px) {
+  .shopping-cart {
+    
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    margin-right: 50px;
+  }
+
+  .column-labels {
+    display: none;
+  }
+
+  .product-image {
+    float: right;
+    width: auto;
+  }
+  .product-image img {
+    margin: 0 0 10px 10px;
+  }
+
+  .product-details {
+    float: none;
+    margin-bottom: 10px;
+    width: auto;
+  }
+
+  .product-price {
+    clear: both;
+    width: 70px;
+  }
+
+  .product-quantity {
+    width: 100px;
+  }
+  .product-quantity input {
+    margin-left: 20px;
+  }
+
+  .product-quantity:before {
+    content: 'x';
+  }
+
+  .product-removal {
+    width: auto;
+  }
+
+  .product-line-price {
+    float: right;
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .product-removal {
+    float: right;
+  }
+
+  .product-line-price {
+    float: right;
+    clear: left;
+    width: auto;
+    margin-top: 10px;
+  }
+
+  .product .product-line-price:before {
+    content: 'Item Total: $';
+  }
+
+  .totals .totals-item label {
+    width: 60%;
+  }
+  .totals .totals-item .totals-value {
+    width: 40%;
+  }
+}
+
+.product-price{
+  visibility: hidden;
+}
+
+#cart-price1{
+  visibility: visible;
+}
+#cart-price{
+  visibility: visible;
+}
+
+.DD {
+  float: right;
+}
+
+.fpago{
+  margin-left: 800px;
+  float: right;
+  border: 0;
+  margin-top: 20px;
+  padding: 6px 25px;
+  background-color: #6b6;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 3px;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #ddeefc;
+	font-family: 'Lato', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	padding: 40px 20px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* ---------- Estilos Generales de las Tarjetas ----------*/
+.tarjeta {
+	width: 100%;
+	max-width: 550px;
+	position: relative;
+	color: #fff;
+	transition: .3s ease all;
+	transform: rotateY(0deg);
+	transform-style: preserve-3d;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.tarjeta.active {
+	transform: rotateY(180deg);
+}
+
+.tarjeta > div {
+	padding: 30px;
+	border-radius: 15px;
+	min-height: 315px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0 10px 10px 0 rgba(90,116,148,0.3);
+}
+
+/* ---------- Tarjeta Delantera ----------*/
+
+.tarjeta .delantera {
+	width: 100%;
+	background: url(../img/bg-tarjeta/bg-tarjeta-02.jpg);
+	background-size: cover;
+}
+
+.delantera .logo-marca {
+	text-align: right;
+	min-height: 50px;
+}
+
+.delantera .logo-marca img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	max-width: 80px;
+}
+
+.delantera .chip {
+	width: 100%;
+	max-width: 50px;
+	margin-bottom: 20px;
+}
+
+.delantera .grupo .label {
+	font-size: 16px;
+	color: #7d8994;
+	margin-bottom: 5px;
+}
+
+.delantera .grupo .numero,
+.delantera .grupo .nombre,
+.delantera .grupo .expiracion {
+	color: #fff;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.delantera .flexbox {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+/* ---------- Tarjeta Trasera ----------*/
+.trasera {
+	background: url(../img/bg-tarjeta/bg-tarjeta-02.jpg);
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	transform: rotateY(180deg);
+  backface-visibility: hidden;
+  width: 550px;
+  height: 250px;
+}
+
+.trasera .barra-magnetica {
+	height: 40px;
+	background: #000;
+	width: 100%;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+
+.trasera .datos {
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.trasera .datos p {
+	margin-bottom: 5px;
+}
+
+.trasera .datos #firma {
+	width: 70%;
+}
+
+.trasera .datos #firma .firma {
+	height: 40px;
+	background: repeating-linear-gradient(skyblue 0, skyblue 5px, orange 5px, orange 10px);
+}
+
+.trasera .datos #firma .firma p {
+	line-height: 40px;
+	font-family: 'Liu Jian Mao Cao', cursive;
+	color: #000;
+	font-size: 30px;
+	padding: 0 10px;
+	text-transform: capitalize;
+}
+
+.trasera .datos #ccv {
+	width: 20%;
+}
+
+.trasera .datos #ccv .ccv {
+	background: #fff;
+	height: 40px;
+	color: #000;
+	padding: 10px;
+	text-align: center;
+}
+
+.trasera .leyenda {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.trasera .link-banco {
+	font-size: 14px;
+	color: #fff;
+}
+
+/* ---------- Contenedor Boton ----------*/
+.contenedor-btn .btn-abrir-formulario {
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 20px;
+	background: #2364d2;
+	color: #fff;
+	position: relative;
+	top: -25px;
+	z-index: 3;
+	border-radius: 100%;
+	box-shadow: -5px 4px 8px rgba(24,56,182,0.4);
+	padding: 5px;
+	transition: all .2s ease;
+	border: none;
+	cursor: pointer;
+}
+
+.contenedor-btn .btn-abrir-formulario:hover {
+	background: #1850b1;
+}
+
+.contenedor-btn .btn-abrir-formulario.active {
+	transform: rotate(45deg);
+}
+
+/* ---------- Formulario Tarjeta ----------*/
+.formulario-tarjeta {
+	background: #fff;
+	width: 100%;
+	max-width: 700px;
+	padding: 150px 30px 30px 30px;
+	border-radius: 10px;
+	position: relative;
+	top: -150px;
+	z-index: 1;
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+	transition: clip-path .3s ease-out;
+}
+
+.formulario-tarjeta.active {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.formulario-tarjeta label {
+	display: block;
+	color: #7d8994;
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+
+.formulario-tarjeta input,
+.formulario-tarjeta select,
+.btn-enviar {
+	border: 2px solid #CED6E0;
+	font-size: 18px;
+	height: 50px;
+	width: 100%;
+	padding: 5px 12px;
+	transition: .3s ease all;
+	border-radius: 5px;
+}
+
+.formulario-tarjeta input:hover,
+.formulario-tarjeta select:hover {
+	border: 2px solid #93BDED;
+}
+
+.formulario-tarjeta input:focus,
+.formulario-tarjeta select:focus {
+	outline: rgb(4,4,4);
+	box-shadow: 1px 7px 10px -5px rgba(90,116,148,0.3);
+}
+
+.formulario-tarjeta input {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.formulario-tarjeta .flexbox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario-tarjeta .expira {
+	width: 100%;
+}
+
+.formulario-tarjeta .ccv {
+	min-width: 100px;
+}
+
+.formulario-tarjeta .grupo-select {
+	width: 100%;
+	margin-right: 15px;
+	position: relative;
+}
+
+.formulario-tarjeta select {
+	-webkit-appearance: none;
+}
+
+.formulario-tarjeta .grupo-select i {
+	position: absolute;
+	color: #CED6E0;
+	top: 18px;
+	right: 15px;
+	transition: .3s ease all;
+}
+
+.formulario-tarjeta .grupo-select:hover i {
+	color: #93bfed;
+}
+
+.formulario-tarjeta .btn-enviar {
+	border: none;
+	padding: 10px;
+	font-size: 22px;
+	color: #fff;
+	background: #2364d2;
+	box-shadow: 2px 2px 10px 0px rgba(0,85,212,0.4);
+	cursor: pointer;
+}
+
+.formulario-tarjeta .btn-enviar:hover {
+	background: #1850b1;
+}
+
+.modal-content {
+  width: 750px;
+ 
+}
+
+
+#cart-total {
+  font-size: 18px;
+  font-weight:lighter;
+  font-family: 'Lato', sans-serif;;
 }
