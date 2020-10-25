@@ -5,88 +5,24 @@ document.addEventListener("DOMContentLoaded", function(e){
 	getJSONData(CART_INFO_URL).then(function (resultObj) {
 		if (resultObj.status === "ok") {
 		  product = resultObj.data;
-	
 		  product = product.articles;
-	
 		  let htmlContentToAppend = "";
 		  let sum = 0;
-		  
-	
-		  for (let i = 0; i < product.length; i++) {
-			let productCar = product[i];
-			
-		  
-			 var priceUnit = productCar.unitCost;
-		  
-			var subTotal = priceUnit * productCar.count;
-		  
-		   
-			
-	
-	
-			if (productCar.currency == "UYU") {
-	
-			  productCar.currency = "USD"
-			  priceUnit = productCar.unitCost / 40;
-			  subTotal = priceUnit * productCar.count;
-	
-	
-	
-			}
-	
-	
-		  
-	
-			document.getElementById("infoProdCarrito").innerHTML = htmlContentToAppend;
-	
-			sum += subTotal;
-			document.getElementById("cart-subtotal").innerHTML = sum;
-			
-		  }
-	
-	
-		  document.getElementById("carritoCount").innerHTML = product.length;
-		  
 		  send();
-	
+
 		}
-	
-		
 	  });
-	
-	
-	
+
 	});
-	
-	
-	function calSTotal(e,subtotal,priceunit) {
-	
-	  let cant = document.getElementById(e).value;
-	
-	  subtotal = cant * priceunit;
-	  document.getElementById(`span${e}`).innerHTML = subtotal;
-	
-	
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-  
 	function send(){
-	  var radios = document.getElementsByName('typeSend');
+	  var sent = document.getElementsByName('shipping');
 	  let subtotal = document.getElementById("cart-subtotal").innerHTML;
-	  for (var i = 0, length = radios.length; i < length; i++)
+	  for (var i = 0, length = sent.length; i < length; i++)
 	  {
-		  if (radios[i].checked)
+		  if (sent[i].checked)
 		  {
 		  
-		  var envio = radios[i].value;
+		  var envio = sent[i].value;
 	  
 		  break;
 		  }
@@ -102,7 +38,7 @@ var shippingRate = 0;
 var fadeTime = 300;
 
 
-/* Assign actions */
+
 $('.product-quantity input').change( function() {
   updateQuantity(this);
 });
