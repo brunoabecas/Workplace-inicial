@@ -20,9 +20,21 @@
         <a class="py-2 d-none d-md-inline-block" href="categories.html">Categorías</a>
         <a class="py-2 d-none d-md-inline-block" href="products.html">Productos</a>
         <a class="py-2 d-none d-md-inline-block" href="sell.html">Vender</a>
-        
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span id="user">Usuario</span> 
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="cart.html">Carrito</a>
+            <a class="dropdown-item" href="my-profile.html">Mi Perfil</a>
+            <a class="dropdown-item" href="login.html"><button class="dropdown-item"onclick="deleteItems()">Cerrar sesión</button></a>
+            
+          </div>
+        </div>
       </div>
     </nav>
+  
+      
     <main role="main" class="pb-5">
       
         <div class="text-center p-4">
@@ -81,6 +93,9 @@
     <script src="js/vendor/bootstrap.bundle.min.js"></script>
     <script src="js/init.js"></script>
     <script src="js/products.js"></script>
+    <script src="js/login.js"></script>
+ 
+
     
   </body>
  

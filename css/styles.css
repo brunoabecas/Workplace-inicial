@@ -363,7 +363,7 @@ a.custom-card, a.custom-card:hover {
 
 .product-price {
   float: left;
-  width: 12%;
+  width: 50%;
 }
 
 .product-quantity {
@@ -448,6 +448,7 @@ label {
 }
 .product .product-details .product-title {
   margin-right: 20px;
+  width: 15px;
   font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
 }
 .product .product-details .product-description {
@@ -515,6 +516,18 @@ label {
 
 .checkout:hover {
   
+}
+
+.check button {
+  float: left;
+  border: 0;
+  margin-right: 5px;
+  padding: 6px 20px;
+  background-color:rgb(21, 21, 124);
+  color: #fff;
+  font-size: 25px;
+  border-radius: 5px;
+
 }
 
 
@@ -1059,3 +1072,6 @@ a {
     text-decoration: none
 }
 
+container {
+  background-color: darkblue;
+}

@@ -56,59 +56,81 @@
       <label class="product-quantity">Cantidad</label>
       <label class="product-removal">Remove</label>
       <label class="product-line-price">Total</label>
-    </div>
-    <div class="product">
-      <div class="product-image">
-        <div id="cart-container3"></div>
-      </div>
-      <div class="product-details">
-        <p id="cart-container4"></p>
-        <div class="product-title"></div>
-        
-        <p class="product-description"></p>
-      </div>
-      <div class="product-price">500000
-        <p id="cart-price1"></p>
-      </div>
-      
-      <div class="product-quantity">
-        <input type="number" value="0" min="0">
-      </div>
-      <div class="product-removal">
-        <button class="remove-product">
-         Eliminar
-        </button>
-      </div>
-      <div class="product-line-price">0
-      </div>
-    </div>
-    <div class="product">
-      <div class="product-image">
-        <div id="cart-container2">
+    </div>  
+    <div class="container px-lg-5">
+      <div class="row mx-lg-n5">
+        <div class="col py-3 px-lg-5 border bg-light"><div class="product">
+          <div class="product-image">
+            <div id="cart-container3"></div>
+          </div>
+          <div class="product-details">
+            <p id="cart-container4"></p>
+            <div class="product-title"></div>
+            
+            <p class="product-description"></p>
+          </div>
+          <div class="product-price">500000
+            <p id="cart-price1"></p>
+          </div>
+          
+          <div class="product-quantity">
+            <input type="number" value="0" min="0">
+          </div>
+          <div class="product-removal">
+            <button class="remove-product">
+             Eliminar
+            </button>
+          </div>
+          <div class="product-line-price">0
+          </div>
         </div>
       </div>
-      <div class="product-details">
-        <p id="cart-container1"></p>
-        <div class="product-title"></div>
-        <p class="product-description"></p>
+        <div class="col py-3 px-lg-5 border bg-light"><div class="product">
+          <div class="product-image">
+            <div id="cart-container2">
+            </div>
+          </div>
+          <div class="product-details">
+            <p id="cart-container1"></p>
+            <div class="product-title"></div>
+            <p class="product-description"></p>
+          </div>
+          <div class="product-price">100
+           <p id="cart-price"></p>
+        </div>
+          <div class="product-quantity">
+            <input type="number" value="1" min="0">
+          </div>
+          <div class="product-removal">
+            <button class="remove-product">
+              Eliminar
+            </button>
+          </div>
+          <div class="product-line-price">100</div>
+        </div>  </div>
       </div>
-      <div class="product-price">100
-       <p id="cart-price"></p>
     </div>
-      <div class="product-quantity">
-        <input type="number" value="1" min="0">
-      </div>
-      <div class="product-removal">
-        <button class="remove-product">
-          Eliminar
-        </button>
-      </div>
-      <div class="product-line-price">100</div>
-    </div>
+    
    
  
         <form class="needs-validation" novalidate>
           <div class="DD">
+              
+    <div class="totals">
+      
+      <div class="totals-item">
+        <label>Subtotal</label>
+        <div class="totals-value" id="cart-subtotal">100</div>
+      </div>
+      <div class="totals-item">
+        <label>Envio</label>
+        <div class="totals-value" id="cart-shipping"></div>
+      </div>
+      <div class="totals-item totals-item-total">
+        <label>Total</label>
+        <div class="totals-value" id="cart-total">0</div>
+      </div>
+    </div>
             <hr class="mb-4">
             <h5 class="mb-3">Tipo de Envío</h5>
               <div class="form-check">
@@ -450,7 +472,7 @@
         <div class="totals-value" id="cart-total">0</div>
       </div>
     </div>
-        <div class="checkout">
+        <div class="check">
         <button type="button" data-toggle="modal" data-target="#staticBackdrop">
           Forma de Pago
         </button>
