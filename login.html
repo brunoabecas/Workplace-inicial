@@ -16,53 +16,23 @@
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
-  
-<body id="body-1">
-  <h1 id="tit">eMercado</h1>
-  <h1 id="subtit">Todo lo que busques está aquí</h1>
-  
     <div class="m-5">
       <h1></h1>
     </div>
-  </section>
-<div class="login-1">
-  <script>
-
-    function guardar(users, pass){  
-
-       
-        localStorage.setItem("usuario", users.trim());
-        localStorage.setItem("password", pass.trim()); 
-        sessionStorage.setItem("usuario",users.trim());
-    
-        
-       
-        location.href="index.html";
-        
-        
-       
-        }
-  
-
-    
-</script>
- 
-
-  
+  </section>  
 </head>
-<h1>Iniciar Sesión</h1>
-<form class="" action="index.html"> 
-  <label for="username">Usuario</label>
-  <input id="users" type="text" placeholder="Ingresar Usuario" required>
-  <label for="password">Contraseña</label>
-  <input id="pass" type="password" placeholder=" Ingresar Contraseña" required>
-  <button onclick="guardar(users.value, pass.value);">Ingresar</button>
 
-<br>
-<br>
-<a href="#">¿Olvido su contraseña?</a>
-<br>
-<a href="#">Crear Usuario</a>
+<div id="tlog"><img src="img/titulo.png"></div>
+
+<div class="main">
+<p class="sign" align="center">LOG IN</p>
+<form name="formLog"class="form1" action="index.html" onsubmit="validate();"> 
+  <label for="username"></label>
+  <input id="users" type="text" placeholder="Ingresar Usuario" required>
+  <label for="password"></label>
+  <input id="pass" type="password" placeholder=" Ingresar Contraseña" required>
+  <input class="submit" type="submit" value="Ingresar" onclick="guardar(users.value, pass.value);"/>
+  <p class="forgot" align="center"><a href="#">¿Se te Olvido la Contraseña?</p>
 </form>
 </div>
 

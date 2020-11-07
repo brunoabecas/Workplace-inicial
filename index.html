@@ -29,21 +29,11 @@
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="cart.html">Carrito</a>
             <a class="dropdown-item" href="my-profile.html">Mi Perfil</a>
-            <a class="dropdown-item" href="login.html" ><button class="dropdown-item"onclick="deleteItems()">Cerrar sesión</button></a>
+            <a class="dropdown-item" href="login.html"><button class="dropdown-item"onclick="deleteItems()">Cerrar sesión</button></a>
             
           </div>
         </div>
-         <script>
-             var usuario = localStorage.getItem("usuario"); 
-             var sesion = sessionStorage.getItem("usuario");
-             document.getElementById('user').innerHTML=usuario;
-
-             function deleteItems() {
-              localStorage.clear();
-                              }
-             
-         </script>
-      </div>
+       
     </nav>
     <main role="main">
       <section class="jumbotron text-center">
@@ -128,5 +118,6 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/login.js"></script>
   </body>
 </html>
